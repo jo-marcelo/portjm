@@ -37,20 +37,16 @@ This site serves as a central hub for my professional profile, technical project
 To run this project locally for development:
 
 1. **Clone the repository:**
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   
-
+   git clone [https://github.com/jo-marcelo/portjm.git](https://github.com/jo-marcelo/portjm.git)   
 
 
 2. **Install dependencies:**
-npm install
-
-
+   npm install
 
 
 3. **Start the dev server:**
-npm run dev
-   Visit `http://localhost:4321` to see it in action.
+   npm run dev
+      Visit `http://localhost:4321` to see it in action.
 
 
 ## 🤝 Credits & Attribution
