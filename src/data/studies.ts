@@ -1,9 +1,9 @@
 export const studies = [
   {
     title: "B.S. in Computer Science",
-    institution: "State University",
+    institution: "Western Governors University",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases.",
     tags: [
       "Algorithms",
       "Data Structures",
@@ -13,8 +13,8 @@ export const studies = [
     ],
   },
   {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
+    title: "M.S. in Cybersecurity & Information Assurance",
+    institution: "Western Governors University",
     description:
       "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
     tags: [
