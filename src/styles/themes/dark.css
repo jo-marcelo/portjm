@@ -1,29 +1,29 @@
 /* Dark theme tokens. Applied when an ancestor sets [data-theme="dark"] or .dark */
 [data-theme="dark"],
 .dark {
-  /* Primary Brand Colors (Flowing Orange) */
-  --accent: #FF8A4C;
-  --accent-dark: #F97316;
-  --accent-rgb: 255, 138, 76;
+  /* Primary Brand Colors (Blue/Teal) */
+  --accent: #2dd4bf;
+  --accent-dark: #0f766e;
+  --accent-rgb: 45, 212, 191;
 
   /* Neutral Colors */
   --black: 255, 255, 255;
-  --gray: 171, 178, 191;
-  --gray-light: 40, 44, 52;
-  --gray-dark: 220, 223, 228;
-  --background: #050505;
+  --gray: 179, 199, 216;
+  --gray-light: 65, 82, 112;
+  --gray-dark: 229, 233, 239;
+  --background: #071627;
 
   /* Semantic Color Tokens */
   --color-text-primary: rgb(var(--black));
   --color-text-secondary: rgb(var(--gray-dark));
   --color-text-muted: rgb(var(--gray));
   --color-bg-primary: var(--background);
-  --color-bg-secondary: rgba(255, 255, 255, 0.05);
-  --color-bg-tertiary: rgba(255, 255, 255, 0.08);
-  --color-border: rgba(var(--gray-light), 0.3);
-  --color-border-light: rgba(var(--gray-light), 0.1);
+  --color-bg-secondary: rgba(45, 212, 191, 0.08);
+  --color-bg-tertiary: rgba(45, 212, 191, 0.12);
+  --color-border: rgba(65, 82, 112, 0.35);
+  --color-border-light: rgba(65, 82, 112, 0.18);
   --color-accent-text: var(--accent);
-  --color-accent-bg: rgba(var(--accent), 0.15);
+  --color-accent-bg: rgba(var(--accent-rgb), 0.15);
 
   /* Translucent surfaces */
   --surface-100: rgba(255, 255, 255, 0.05);
@@ -39,24 +39,23 @@
 
   /* Component Specific Shadows */
   --box-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.4),
-    0 8px 24px rgba(0, 0, 0, 0.2),
+    0 2px 6px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.2),
     0 16px 32px rgba(0, 0, 0, 0.2);
 
   /* Map to Starwind token variables */
-  --background: #1E1E1E;
+  --background: #071627;
   --foreground: rgb(243, 244, 246);
   /* Translucent card surface on dark bg */
-  --card: rgba(255, 255, 255, 0.04);
+  --card: rgba(12, 34, 51, 0.7);
   --card-foreground: rgb(243, 244, 246);
-  --popover: #282c34;
+  --popover: rgba(10, 26, 39, 0.92);
   --popover-foreground: rgb(243, 244, 246);
-  --primary: #FF8A4C;
+  --primary: #2dd4bf;
   --primary-foreground: #0f1219;
-  --secondary: #FFB36B;
+  --secondary: #38bdf8;
   --secondary-foreground: rgb(243, 244, 246);
   --muted: rgba(255, 255, 255, 0.06);
-  --muted-foreground: rgb(171, 178, 191);
+  --muted-foreground: rgb(179, 199, 216);
   --accent-foreground: #0f1219;
   /* Semantic colors from old project */
   --success: #10b981;
@@ -70,7 +69,5 @@
   /* Slightly softer borders on translucent surfaces */
   --border: var(--surface-300);
   --input: var(--surface-300);
-  --outline: #F97316;
+  --outline: #0f766e;
 }
-
-

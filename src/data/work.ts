@@ -11,22 +11,22 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+    title: "Cybersecurity Content Creator",
+    company: "J. Marcelo Miranda | CyberSec ",
+    region: "YouTube Channel",
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+      `In my Road to Pentest+ series, I provide honest, live-streamed walkthroughs of the TryHackMe PenTest+ Path to showcase the authentic process of technical skill-building. I also create educational content on cybersecurity concepts, tools, and techniques, sharing practical insights and tips for fellow aspiring security professionals.`,
     technologies: [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
+      "Hydra",
+      "Active Directory",
+      "Linux Privilege Escalation",
+      "Windows Privilege Escalation",
+      "Metasploit",
+      "Nmap",
+      "OWASP Top 10",
+      "Credentials Harvesting",
       "Terraform",
-      "GraphQL",
+      "Windows Local Persistence",
     ],
   },
   {
